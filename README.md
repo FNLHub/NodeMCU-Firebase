@@ -1,10 +1,17 @@
 # NodeMCU-Firebase
 
+## This is a work in progress the full detail instructions will come later.
+
 [Install instructions](https://github.com/FirebaseExtended/firebase-arduino/tree/master/examples/FirebaseDemo_ESP8266)
 
 https://github.com/googlesamples/firebase-arduino/archive/master.zip
 
 Install ArduinoJson (5.13.3) - Stable
+Sketch -> Include Library -> Manage Libraries
+
+Wait for the install to update and then search for: "ArduinoJson"
+
+On the version selection select 5.13.3 which is the stable build. 
 
 ```c
 #include <ESP8266WiFi.h>
