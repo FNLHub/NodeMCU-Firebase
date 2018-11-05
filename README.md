@@ -18,7 +18,7 @@ On the version selection select 5.13.3 which is the stable build.
 #include <FirebaseArduino.h>
 
 // Set these to run example.
-#define FIREBASE_HOST example.firebaseio.com"
+#define FIREBASE_HOST "example.firebaseio.com" //Update this to your database url without the https:// and the last /
 #define FIREBASE_AUTH "<FireBase_AUTH>"
 #define WIFI_SSID "<Wifi_SSID>"
 #define WIFI_PASSWORD "<Wifi_PW>"
